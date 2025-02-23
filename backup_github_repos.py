@@ -1,5 +1,5 @@
 import os
-from subprocess import call, check_call
+from subprocess import call
 import requests
 from dotenv import load_dotenv
 
