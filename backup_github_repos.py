@@ -3,13 +3,11 @@ This script backs up GitHub repositories for a user. It fetches the list of
 repositories using the GitHub API and either clones them if they don't exist
 locally, or pulls the latest changes if they do.
 
+For detailed usage instructions, please refer to the README file.
+
 Environment variables:
 - GITHUB_TOKEN: GitHub personal access token for authentication.
 - BACKUP_DIR: Directory where the repositories will be backed up.
-
-Usage:
-1. Set the GITHUB_TOKEN and BACKUP_DIR environment variables.
-2. Run the script to back up the repositories.
 """
 
 import os
