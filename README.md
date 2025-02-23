@@ -24,7 +24,7 @@ This repository contains a Python script to backup all your GitHub repositories 
     pip install -r requirements.txt
     ```
 
-4. Create a [`.env`](.env) file in the root directory of the project and add your GitHub token and backup directory path:
+4. Create a `.env` file in the root directory of the project and add your GitHub token and backup directory path:
 
     ```env
     GITHUB_TOKEN=your_github_token
