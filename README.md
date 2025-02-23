@@ -47,7 +47,7 @@ The script will fetch all your repositories and clone them to the specified back
 ## Notes
 
 -   Ensure that your GitHub token has the necessary permissions to access your repositories.
--   The script handles pagination to fetch all repositories if you have more than 100.
+-   The script handles pagination to fetch all repositories if you have more than 30.
 
 ## License
 
