@@ -39,7 +39,7 @@ This repository contains a Python script to backup all your GitHub repositories 
 Run the script to start the backup process:
 
 ```sh
-python backup_github_repos.py
+python3 backup_github_repos.py
 ```
 
 The script will fetch all your repositories and clone them to the specified backup directory. If a repository already exists, it will pull the latest changes.
