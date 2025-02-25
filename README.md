@@ -6,33 +6,33 @@ This repository contains a Python script to backup all your GitHub repositories 
 
 1. Clone this repository to your local machine:
 
-    ```sh
-    git clone https://github.com/gabrielfortuny/backup-github-repos.git
-    cd backup-github-repos
-    ```
+   ```sh
+   git clone https://github.com/gabrielfortuny/backup-github-repos.git
+   cd backup-github-repos
+   ```
 
 2. Create a virtual environment and activate it:
 
-    ```sh
-    python3 -m venv env
-    source env/bin/activate
-    ```
+   ```sh
+   python3 -m venv env
+   source env/bin/activate
+   ```
 
 3. Install the required packages:
 
-    ```sh
-    pip install -r requirements.txt
-    ```
+   ```sh
+   pip install -r requirements.txt
+   ```
 
 4. Create a `.env` file in the root directory of the project and add your GitHub token and backup directory path:
 
-    ```env
-    GITHUB_TOKEN=your_github_token
-    BACKUP_DIR=/path/to/backup/directory
-    ```
+   ```env
+   GITHUB_TOKEN=your_github_token
+   BACKUP_DIR=/path/to/backup/directory
+   ```
 
-    - `GITHUB_TOKEN`: A personal access token with read access to your repositories. You can create one [here](https://github.com/settings/personal-access-tokens).
-    - `BACKUP_DIR`: The directory where you want to store the backups.
+   - `GITHUB_TOKEN`: A personal access token with read access to your repositories. You can create one [here](https://github.com/settings/personal-access-tokens).
+   - `BACKUP_DIR`: The directory where you want to store the backups.
 
 ## Usage
 
@@ -46,8 +46,8 @@ The script will fetch all your repositories and clone them to the specified back
 
 ## Notes
 
--   Ensure that your GitHub token has the necessary permissions to access your repositories.
--   The script handles pagination to fetch all repositories if you have more than 30.
+- Ensure that your GitHub token has the necessary permissions to access your repositories.
+- The script handles pagination to fetch all repositories if you have more than 30.
 
 ## License
 

@@ -49,9 +49,7 @@ def clone_or_pull_repo(repo):
     repo_url = repo["clone_url"]
     repo_path = os.path.join(BACKUP_DIR, repo_name)
     if os.path.exists(repo_path):
-        print(
-            f"Repository {repo_name} already exists. Pulling latest changes..."
-        )
+        print(f"Repository {repo_name} already exists. Pulling latest changes...")
         call(["git", "-C", repo_path, "pull"])
     else:
         print(f"Cloning {repo_name}...")
